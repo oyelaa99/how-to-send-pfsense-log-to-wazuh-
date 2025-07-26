@@ -79,8 +79,6 @@ Copy and paste the message into Server Management > Ruleset Test on the Wazuh da
 
 [**wazuh/ruleset/decoders/0455-pfsense_decoders.xml at master · wazuh/wazuh**Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for endpoints and cloud workloads. - wazuh/wazuh**GitHubwazuh**](https://github.com/wazuh/wazuh/blob/master/ruleset/decoders/0455-pfsense_decoders.xml?ref=marceltc.com)Wazuh's pfSense decoder
 
-![](https://marceltc.com/content/images/icon/pinned-octocat-093da3e6fa40-1.svg)
-
 If you don’t see anything in the `archives.log`, run a packet capture on the Wazuh server host to ensure that you’re actually receiving syslog messages:
 
 ```
