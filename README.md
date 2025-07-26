@@ -77,8 +77,6 @@ Aug 22 18:05:32 pfsense filterlog[73973]: 71,,,12004,igb0,match,block,in,4,0xc0,
 
 Copy and paste the message into Server Management > Ruleset Test on the Wazuh dashboard or use the `wazuh-logtest` CLI utility. You should see that Phase 1, 2, and 3 correctly decoded. Wazuh will use the built-in pfSense decoder (also available on their GitHub) to parse the firewall logs.
 
-[**wazuh/ruleset/decoders/0455-pfsense_decoders.xml at master · wazuh/wazuh**Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for endpoints and cloud workloads. - wazuh/wazuh**GitHubwazuh**](https://github.com/wazuh/wazuh/blob/master/ruleset/decoders/0455-pfsense_decoders.xml?ref=marceltc.com)Wazuh's pfSense decoder
-
 If you don’t see anything in the `archives.log`, run a packet capture on the Wazuh server host to ensure that you’re actually receiving syslog messages:
 
 ```
